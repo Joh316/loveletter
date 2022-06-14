@@ -6,25 +6,25 @@
 }
 
 a:link {
-  color: #363062;
+  color: #4D4C7D;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: #363062;
+  color: #4D4C7D;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #363062;
+  color: #4D4C7D;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: #363062;
+  color: #4D4C7D;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -32,6 +32,7 @@ a:active {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  color: #363062;
 }
 cite {
   font-size: small;

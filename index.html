@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Liebesbrief des Vaters in Deutsch, incl. Biblestellen." />
   <title>Liebesbrief des Vaters</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -219,7 +220,8 @@
     </p>
     <hr>
     <p>Alles Liebe, dein Papa,<br>der Allmächtige Gott</p>
-
+    <br>
+    <br>
   </div>
 
 
@@ -235,7 +237,16 @@
     var refTagger = {
       settings: {
         bibleVersion: "lu1912",
-        socialSharing: ["faithlife", "twitter", "facebook"]
+        socialSharing: ["faithlife", "twitter", "facebook"],
+        customStyle: {
+          heading: {
+            backgroundColor: "#E9D5CA",
+            color: "#363062"
+          },
+          body: {
+            color: "#363062"
+          }
+        }
       }
     };
     (function(d, t) {
